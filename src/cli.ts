@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import { Command } from "commander";
-import { gitignoreCommand } from "./commands/gitignore.js";
-import { installCommand } from "./commands/install.js";
-import { uninstallCommand } from "./commands/uninstall.js";
+import { gitignoreCommand } from "./commands/gitignore_english.js";
+import { installCommand } from "./commands/install_english.js";
+import { uninstallCommand } from "./commands/uninstall_english.js";
 
 const program = new Command();
 
